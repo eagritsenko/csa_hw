@@ -1,12 +1,12 @@
-GNU assembler and linker were used to assemble the x86-64 program.
-Linux kernel aside, it has no dependencies.
+GNU assembler and linker were used to assemble this program.
+Apart from the Linux kernel, it has no dependencies.
 
-It has been successfully assembled and later run using Linux 5.8.7 as follows:
+It was successfully assembled and later run using Linux 5.8.7 as follows:
 
 as task3.s -o task3.o
 ld task3.o -o task3
 
-All functions conform to System V AMD64 calling conventions.
+All functions conform to the System V AMD64 calling convention.
 
-Program reads UTF-8 chars from stdin until EOF, defined as zero byte read. In other words, it handles input the same way cat does.
+Program reads UTF-8 characters from stdin until EOF defined as zero byte read. In other words, it handles input the same way cat does.
 The program then prints how many times it has encountered each character of modern Russian and English alphabets while reading.
