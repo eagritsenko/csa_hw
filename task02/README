@@ -1,7 +1,0 @@
-GNU assembler and linker were used to assemble the x86-64 program.
-It's been built against glibc and linux as follows:
-as task2.s -o task2.o
-ld -dynamic-linker /lib64/ld-linux-x86-64.so.2 /lib64/crt1.o /lib64/crti.o -lc task2.o /lib64/crtn.o -o task2
-
-Code fully (except read_input) conforms to a certain (unable to find the document link at the moment) x86-64 calling convention, though functions are not declared as such via .type.
-
