@@ -9,3 +9,4 @@ ld task3.o -o task3
 All functions conform to System V AMD64 calling conventions.
 
 Program reads UTF-8 chars from stdin until EOF, defined as zero byte read. In other words, it handles input the same way cat does.
+The program then prints how many times it has encountered each character of modern Russian and English alphabets while reading.
